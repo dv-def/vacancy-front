@@ -10,7 +10,7 @@
     const { id } = useRoute().params;
     console.log(id);
 
-    const uri = 'http://vacancy-api.loc/index.php?r=vacancy/view&id=' + id;
+    const uri = 'http://vacancy-api.loc/index.php/vacancy/' + id;
 
     const { data: vacancy } = await useFetch(uri);
 

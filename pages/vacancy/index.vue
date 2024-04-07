@@ -10,7 +10,7 @@
 </template>
 
 <script setup>
-    const uri = 'http://vacancy-api.loc/index.php?r=vacancy/index';
+    const uri = 'http://vacancy-api.loc/vacancy/index';
 
     const { data: vacancies } = await useFetch(uri);
 </script>
