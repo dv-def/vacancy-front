@@ -51,7 +51,7 @@
         if (!sort.value.startsWith('-')) {
             sort.value = '-salary';
         } else {
-            sort.value = 'salery';
+            sort.value = 'salary';
         }
     }
 
