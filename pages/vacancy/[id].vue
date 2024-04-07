@@ -12,7 +12,7 @@
 
     const uri = 'http://vacancy-api.loc/index.php?r=vacancy/view&id=' + id;
 
-    const { data: vacancy } = useFetch(uri);
+    const { data: vacancy } = await useFetch(uri);
 
 </script>
 
